@@ -1,0 +1,22 @@
+.content-container {
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 7px;
+  border-color: #d73131;
+  margin: 5px;
+  padding: 8px;
+}
+.inner-container{
+  align-content: right;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 7px;
+  border-color: #005fb3;
+  margin: 5px;
+  margin-left:4px;
+  padding: 5px;
+
+}
+.give-left{
+  margin-left:18px;
+}

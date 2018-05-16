@@ -1,0 +1,13 @@
+*.build/
+*.out
+out/
+build/
+*.node_modules/*
+node_modules/
+.gradle/*
+.idea/*
+build/*
+*/.idea
+*./.idea
+*.idea
+*node_modules/*

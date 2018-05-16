@@ -1,0 +1,16 @@
+.image-container {
+  background-color : black;
+  background : url('../../assets/portrait.jpg');
+  max-height: 100%;
+  background-repeat: no-repeat;
+  background-size: 150px;
+  height:220px;
+  align-content:center;
+  border-style:outset;
+  border-width: 4px;
+  float: inherit;
+  padding:10px;
+  align:center;
+  background-size: cover;
+
+}
