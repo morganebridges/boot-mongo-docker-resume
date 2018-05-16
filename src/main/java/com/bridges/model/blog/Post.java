@@ -1,6 +1,5 @@
 package com.bridges.model.blog;
 
-import com.bridges.model.Tag;
 import com.sun.istack.internal.Nullable;
 import org.springframework.data.annotation.Id;
 
@@ -8,7 +7,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Post {
-    @Id
     //Required
     private String content;
     private String title;
@@ -21,6 +19,7 @@ public class Post {
     private String subtitle;
 
     @Nullable
+    @Id
     private Long id;
 
     public Post(Long id, String title, String content, List<Tag> tags, String subtitle){
